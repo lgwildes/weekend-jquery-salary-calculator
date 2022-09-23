@@ -1,0 +1,22 @@
+[x] create html
+[ ? ]  source jquery
+[x] source javascript
+[x] add form element to html  - remember ID or class
+[] Don't forget div elements
+[] add input elements - remember labels and ID OR CLASS
+    [] employee first name
+    [] employee last name
+    [] ID number
+    [] job title
+    [] annual salary
+[] add submit button - remember ID & CLASS
+[] create global array variable to store employee data 
+[] on button 'submit' collect form info and push to global array
+    [] remember to stop default page reload on 'submit'
+    [] access input data with .val()
+    [] calculate monthly salary/employee to = monthly costs
+    [] calculate monthly salary/employee to = monthly costs
+    [] append to DOM
+    [] clear input fields
+[] add .class and turn background red to total month cost field if monthly cost > $20,00
+[] create delete button to remove employee row from DOM (not array)
