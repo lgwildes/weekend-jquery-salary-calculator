@@ -3,12 +3,12 @@
 [x] source javascript
 [x] add form element to html  - remember ID or class
 [] Don't forget div elements
-[] add input elements - remember labels and ID OR CLASS
-    [] employee first name
-    [] employee last name
-    [] ID number
-    [] job title
-    [] annual salary
+[x] add input elements - remember labels and ID OR CLASS
+    [x] employee first name
+    [x] employee last name
+    [x] ID number
+    [x] job title
+    [x] annual salary
 [] add submit button - remember ID & CLASS
 [] create global array variable to store employee data 
 [] on button 'submit' collect form info and push to global array
