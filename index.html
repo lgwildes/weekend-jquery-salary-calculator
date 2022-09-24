@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="jquery.js"></script>
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
 </head>
@@ -19,6 +20,7 @@
             First Name
         </label>
         <input
+            class="input"
             id="firstNameInput"
             type="text"
         />
@@ -29,6 +31,7 @@
             Last Name
         </label>
         <input
+            class="input"
             id="lastNameInput"
             type="text"
         />
@@ -39,6 +42,7 @@
             ID Number
         </label>
         <input
+            class="input"
             id="idNumberInput"
             type="text"
         />
@@ -49,6 +53,7 @@
             Job Title
         </label>
         <input
+            class="input"
             id="jobTitleInput"
             type="text"
         />
@@ -59,14 +64,29 @@
             Annual Salary
         </label>
         <input
+            class="input"
             id="salaryInput"
             type="text"
         />
     </div>
-
-
+    <button class="button" id="submitBtn" >Submit</button>
 </form>
 
-    
+<h1>Employees</h1>
+    <div class="table">
+        <table id="employeeTable">
+            <tr>
+                <td>Employee First Name</td>
+                <td>Employee Last Name</td>
+                <td>Employee ID Number</td>
+                <td>Employee Job Title</td>
+                <td>Employee Annual Salary</td>
+
+            </tr>
+            
+
+        </table>
+</div>
+<h1 id="cost">Monthly Costs:</h1>
 </body>
 </html>

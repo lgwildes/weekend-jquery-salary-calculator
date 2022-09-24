@@ -1,0 +1,16 @@
+body {
+    background-color:thistle
+}
+
+table, td{
+    border: 1px solid black;
+    background-color:aliceblue;
+
+} 
+td {
+    padding: 5px 10px;
+}
+
+.red {
+    background-color: red;
+}
