@@ -4,6 +4,7 @@ body {
 
 table, td{
     border: 1px solid black;
+    border-collapse:collapse;
     background-color:aliceblue;
 
 } 
@@ -13,4 +14,8 @@ td {
 
 .red {
     background-color: red;
+}
+
+.button {
+    
 }
