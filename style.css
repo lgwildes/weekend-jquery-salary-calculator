@@ -17,5 +17,21 @@ td {
 }
 
 .button {
-    
+    color:rgb(139, 123, 139);
+    border-radius: 10px ;
+    border: none;
+    box-shadow: 2px 2px 5px 1px rgba(139, 123, 139, 0.583);
+}
+
+.button:hover {
+    color: rgba(139, 123, 139, 0.583);
+}
+
+.allInputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    width: 50%;
 }

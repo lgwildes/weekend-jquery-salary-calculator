@@ -49,7 +49,7 @@ function addEmployee(evt) {
     render();
 }
 
-function render(); {
+function render() {
     //empty previous table so only to list each employee once on each render
     $('#employeeTable').empty();
     //loop through and add current array of employees
