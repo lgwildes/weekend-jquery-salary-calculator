@@ -31,25 +31,25 @@ function addEmployee(evt) {
     totalEmployees.push(addedEmployee);
 
     //ADD MATH
-    let employeeMonthly = $('#salaryInput').val() / 12
+    let employeeMonthly = $('#salaryInput').val() / 12;
 
     monthlyCost += employeeMonthly
    
-    $('#cost').text(`Monthly Costs: ${monthlyCost}`)
+    $('#cost').text(`Monthly Costs: ${monthlyCost}`);
 
     if (monthlyCost >20000) {
-        $('#cost').addClass('red')
+        $('#cost').addClass('red');
     }
    
     //console.log('logging employee array',totalEmployees)
 
     //clear input fields
-    $('.input').val('')
+    $('.input').val('');
    
     render();
 }
 
-function render() {
+function render(); {
     //empty previous table so only to list each employee once on each render
     $('#employeeTable').empty();
     //loop through and add current array of employees
@@ -70,10 +70,5 @@ function render() {
 }
 
 function deleteEmployee() {
-    $(this).parent().parent().remove()
+    $(this).parent().parent().remove();
 }
-
-
-
-//TODO Figure out where to do my math, inside render or add employee?
-//problem - inside render it reruns ALL array items each time I hit submit so total monthly inflates to quickly
