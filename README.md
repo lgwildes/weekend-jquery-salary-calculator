@@ -7,7 +7,7 @@
 
 ## Description
 
-_Duration for Basic: 4 hours_
+_Duration for Basic: 4 hours +2 hours additional CSS work_
 
 In this project I needed to create a form which would take employee data and calculate monthly costs for all salaried employees. 
 
@@ -15,14 +15,13 @@ I created a basic HTML form with inputs for all employee data. I added a submit 
 
 ## Screen Shot
 
-Include one or two screen shots of your project here (optional). Remove if unused.
-
+![](../../../../Desktop/Salary%20Calculator%20Screenshot.png)
 
 ## Usage
 How does someone use this application? Tell a user story here.
 
-1. Type employee data into each input field
-2. Click on 'submit' button
+1. Type employee data into each input field.
+2. Click on 'submit' button to enter data and see updated monthly cost. 
 3. To remove an employee's data from the table, click the 'delete' button next to the desired employee. 
 
 ## Built With
